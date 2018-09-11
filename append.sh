@@ -17,3 +17,5 @@ then
 else
 	echo "file not exist"
 fi
+
+# -w are used for write permission
