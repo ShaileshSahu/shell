@@ -10,13 +10,28 @@
 # esac
 
 
-book=$1
+# book=$1
 
-case $book in
+# case $book in
+# 	"java" )
+# 		echo "Java" ;;
+# 	"datastructure" )
+# 		echo "Data Structure" ;;
+# 	* )
+# 		echo "no data" ;;
+# esac	
+
+
+
+# case study	
+
+read -p "Enter the book name: " _bookname
+
+case $_bookname in
 	"java" )
-		echo "Java" ;;
-	"datastructure" )
-		echo "Data Structure" ;;
+		echo "Java is available at this store" ;;
+	"Algo" )
+		echo "Algorithm book came soon" ;;
 	* )
-		echo "no data" ;;
-esac	
+		echo "Not available" ;;
+esac			
